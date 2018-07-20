@@ -85,6 +85,9 @@ Restart your computer.
 Install the Service Fabric Mesh runtime, SDK, and tools in a dependent order.
 
 1. Install the [Service Fabric Mesh SDK][download-sdkmesh] using Web Platform Installer. This will also install the Microsoft Azure Service Fabric SDK and runtime.
+
+If you do not see "Microsoft Azure Service Fabric Mesh SDK (Preview) - 3.2.162 in the Install list, go to "Options" in the WebPI tool and override the primary feed with "https://sfmeshsamples.blob.core.windows.net/templates/WebProductList.xml"
+
 2. Install the [Visual Studio Service Fabric Tools (preview) extension][download-tools] from Visual Studio Marketplace.
 
 ## Build a cluster
